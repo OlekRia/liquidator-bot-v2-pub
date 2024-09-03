@@ -61,6 +61,7 @@ export async function handleLiquidates(db: MyDatabase, tonClient: TonClient,
         id: number,
         walletAddress: string,
     }[] = [];
+    
     const highloadMessages = Dictionary.empty<number, Cell>();
     let i = 0;
     for (const task of tasks) {

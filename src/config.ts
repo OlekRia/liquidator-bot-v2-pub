@@ -64,7 +64,7 @@ export const AssetID = {
 
 
 
-// // ------------------ Mainnet Config ------------------
+//  ------------------ Mainnet Config ------------------
 //
 export const evaaMaster = Address.parse('EQC8rUZqR_pWV1BylWUlPNBzyiTYVoBEmQkMIQDZXICfnuRr');
 export const rpcEndpoint = 'https://tonrpc.sepezho.com/api/v2/jsonRPC'
@@ -88,7 +88,7 @@ export const jettonWallets = {
 export const iotaEndpoint = "https://api.stardust-mainnet.iotaledger.net";
 export const NFT_ID = "0xfb9874544d76ca49c5db9cc3e5121e4c018bc8a2fb2bfe8f2a38c5b9963492f5"
 
-export const serviceChatID =-4021802986;
+export const serviceChatID = process.env.TELEGRAM_CHAT_ID || 800350287;
 
 export const highloadAddress = 'EQDo27P-CAam_G2xmQd4CxnFYjY2FKPmmKEc8wTCh4c33Mhi';
 

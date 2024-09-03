@@ -1,0 +1,12 @@
+{
+  "cSpell.words": ["AUTOINCREMENT", "evaa", "TONAPI", "utime"],
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "My",
+      "database": "${workspaceFolder:liquidator-bot-v2-pub}/database-mainnet.db"
+    }
+  ]
+}
